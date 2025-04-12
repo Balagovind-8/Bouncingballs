@@ -1,0 +1,31 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: black;
+}
+
+canvas {
+  display: block;
+}
+
+#stats {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: right;
+  backdrop-filter: blur(2px);
+  padding: 10px 15px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+#stats h1 {
+  margin: 0 0 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #00ffff;
+  text-shadow: 0 0 5px #00ffff;
+}
